@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "GitHub Gist Copy Button",
+    "version": "1.0",
+    "description": "Adds a copy button to GitHub Gist pages for easy code copying",
+    
+    "permissions": [
+      "activeTab"
+    ],
+    
+    "content_scripts": [
+      {
+        "matches": ["https://gist.github.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }

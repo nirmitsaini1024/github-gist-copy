@@ -1,0 +1,33 @@
+/* Ensure copy button integrates well with GitHub's design */
+.gist-copy-btn {
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .gist-copy-btn:hover {
+    background-color: #0b0f16 !important;
+    border-color: #d0d7de !important;
+  }
+  
+  .gist-copy-btn:active {
+    background-color: #0b0f16 !important;
+    transform: scale(0.98);
+  }
+  
+  /* Ensure proper spacing in file actions */
+  .file-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* Copy button specific styles */
+  .gist-copy-btn .Button-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gist-copy-btn .Button-label {
+    font-size: 12px;
+    font-weight: 500;
+  }
